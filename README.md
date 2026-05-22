@@ -8,4 +8,4 @@ MSc Bioinformatics | NGS • Genomics • Drug Discovery
 - Drug Discovery & Cheminformatics
 
 🛠 Tools: Python, R, Scanpy, GATK, Snakemake,
-📫 LinkedIn: [www.linkedin.com/in/grp1
+📫 LinkedIn: www.linkedin.com/in/grp1
