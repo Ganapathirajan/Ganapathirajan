@@ -1,4 +1,6 @@
 Hi, I'm Ganapathirajan
+
+
 MSc Bioinformatics and Data science | NGS • Genomics • computational Biology • Python • R • Linux • Machine learning 
 
 
