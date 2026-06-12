@@ -44,7 +44,7 @@ Not just running tools. Understanding the biology behind the numbers.
 ### 🧠 [`snrna-pd-analysis`](https://github.com/Ganapathirajan/snrna-pd-analysis)
 Single-cell RNA-seq analysis of Parkinson's Disease brain tissue. Quality filtering → normalization → PCA/UMAP → unsupervised clustering → cell-type annotation using marker genes. Publication-quality UMAP and dot plots.
 
-### 🧬 [`01-bulk-rnaseq-pd`](https://github.com/Ganapathirajan/01-bulk-rnaseq-pd)
+### 🧬 [`bulk-rnaseq-pd`](https://github.com/Ganapathirajan/01-bulk-rnaseq-pd)
 End-to-end bulk RNA-seq pipeline on Parkinson's Disease prefrontal cortex (GSE68719). FastQC → HISAT2/STAR → featureCounts → DESeq2 DE analysis → GO/KEGG/GSEA pathway enrichment. Volcano plots, PCA, heatmaps.
 
 ### 🔍 [`ml-pathogenicity-classifier`](https://github.com/Ganapathirajan/ml-pathogenicity-classifier)
