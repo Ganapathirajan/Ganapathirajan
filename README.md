@@ -100,7 +100,7 @@ Metagenomic profiling of gut microbiome in Parkinson's Disease. QIIME2 + Kraken2
 - 🔭 Building reproducible multi-omics pipelines (RNA-seq + variant calling + scRNA-seq)
 - 📖 Deepening knowledge in clinical bioinformatics and translational genomics
 - 🌱 Learning Nextflow for scalable pipeline deployment
-- 🎯 Open to **bioinformatics analyst / computational biology** roles
+- 🎯 Open to **bioinformatics analyst / computational biology.** roles
 
 ---
 
