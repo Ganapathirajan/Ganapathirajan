@@ -10,9 +10,9 @@
 
 MSc Bioinformatics & Data Science @ **Sathyabama Institute of Science and Technology**, Chennai.
 
-I build computational pipelines that turn raw sequencing data into biological insight — bulk RNA-seq, scRNA-seq, WGS/WES variant calling, metagenomics, ChIP-seq. I also apply ML (classification, clustering, dimensionality reduction) to genomics problems.
+I build computational pipelines that turn raw sequencing data into biological insight: bulk RNA-seq, scRNA-seq, WGS/WES variant calling, metagenomics, ChIP-seq. I also apply ML (classification, clustering, dimensionality reduction) to genomics problems.
 
-Right now I'm deepening my work in **clinical bioinformatics** and **drug target discovery** — connecting multi-omics signals to real therapeutic questions.
+Right now I'm deepening my work in **clinical bioinformatics** and **drug target discovery**  connecting multi-omics signals to real therapeutic questions.
 
 ```
 Not just running tools. Understanding the biology behind the numbers.
