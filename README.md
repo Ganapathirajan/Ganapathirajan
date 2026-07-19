@@ -14,67 +14,53 @@ I build computational pipelines that turn raw sequencing data into biological in
 
 Right now I'm deepening my work in **clinical bioinformatics** and **drug target discovery**  connecting multi-omics signals to real therapeutic questions.
 
-```
+\`\`\`
 Not just running tools. Understanding the biology behind the numbers.
-```
+\`\`\`
 
 ---
 
 ## 🧬 What I Work With
 
 **Omics & Pipelines**
-`Bulk RNA-seq` · `scRNA-seq (Seurat)` · `WGS/WES Variant Calling` · `ChIP-seq` · `Metagenomics`
-`STAR` · `HISAT2` · `BWA-MEM` · `GATK HaplotypeCaller` · `DESeq2` · `edgeR` · `MACS2` · `QIIME2`
-`Snakemake` · `Nextflow (learning)` · `FastQC` · `Trimmomatic` · `SAMtools` · `Picard`
+\`Bulk RNA-seq\` · \`scRNA-seq (Seurat/Scanpy)\` · \`WGS/WES Variant Calling\` · \`ChIP-seq\` · \`Metagenomics\`
+\`STAR\` · \`HISAT2\` · \`BWA-MEM\` · \`GATK HaplotypeCaller\` · \`DESeq2\` · \`edgeR\` · \`MACS2\` · \`QIIME2\` · \`Kraken2/Bracken\`
+\`Snakemake\` · \`Nextflow\` · \`FastQC\` · \`Trimmomatic\` · \`SAMtools\` · \`Picard\` · \`AutoDock Vina\` · \`AlphaFold3\` · \`GROMACS\`
 
 **Languages & Tools**
-`Python` · `R` · `Bash/Linux` · `SQL`
-`Pandas` · `NumPy` · `Scikit-learn` · `Seurat` · `ggplot2` · `Plotly` · `SHAP`
+\`Python\` · \`R\` · \`Bash/Linux\` · \`SQL\`
+\`Pandas\` · \`NumPy\` · \`Scikit-learn\` · \`Seurat\` · \`Scanpy\` · \`ggplot2\` · \`Plotly\` · \`SHAP\`
 
 **Databases**
-`GEO` · `TCGA` · `NCBI` · `ENSEMBL` · `ClinVar` · `gnomAD` · `OpenTargets` · `GWAS Catalog`
+\`GEO\` · \`TCGA\` · \`NCBI\` · \`ENSEMBL\` · \`ClinVar\` · \`gnomAD\` · \`OpenTargets\` · \`GWAS Catalog\` · \`PubChem\` · \`PDB\`
 
 **Cloud & Infra**
-`AWS S3/EC2 (basics)` · `Docker` · `HPC/SLURM` · `Git/GitHub`
+\`AWS S3/EC2 (basics)\` · \`Docker\` · \`HPC/SLURM\` · \`Git/GitHub\`
 
 ---
 
 ## 🔬 Featured Projects
 
-### 🧠 [`snrna-pd-analysis`](https://github.com/Ganapathirajan/snrna-pd-analysis)
-Single-cell RNA-seq analysis of Parkinson's Disease brain tissue. Quality filtering → normalization → PCA/UMAP → unsupervised clustering → cell-type annotation using marker genes. Publication-quality UMAP and dot plots.
+### 🌊 [\`marine-algae-parkinsons-docking\`](https://github.com/Ganapathirajan/marine-algae-parkinsons-docking)
+In silico molecular docking of marine algae-derived bioactive compounds (Ulvan, Porphyran, Dieckol) as potential alpha-synuclein aggregation inhibitors for Parkinson's disease. AutoDock Vina + RDKit + PyMOL. Dieckol showed strongest binding (-6.0 kcal/mol) at the alpha-synuclein N-terminal aggregation domain.
 
-### 🧬 [`bulk-rnaseq-pd`](https://github.com/Ganapathirajan/01-bulk-rnaseq-pd)
-End-to-end bulk RNA-seq pipeline on Parkinson's Disease prefrontal cortex (GSE68719). FastQC → HISAT2/STAR → featureCounts → DESeq2 DE analysis → GO/KEGG/GSEA pathway enrichment. Volcano plots, PCA, heatmaps.
+### 🧪 [\`marine-sulfated-compounds-af3\`](https://github.com/Ganapathirajan/marine-sulfated-compounds-af3)
+AlphaFold3-guided structural modeling and docking of marine sulfated compounds (ulvan oligosaccharides, sulfated sterols) against diabetes (DPP-4) and Alzheimer's (BACE-1) targets. Pipeline: AlphaFold3 → AutoDock Vina cross-validation → GROMACS MD → ADMET.
 
-### 🔍 [`ml-pathogenicity-classifier`](https://github.com/Ganapathirajan/ml-pathogenicity-classifier)
-ML classifier to predict variant pathogenicity from genomic features. Scikit-learn pipeline with feature engineering, hyperparameter tuning, and SHAP-based explainability.
+### 🧠 [\`scrna-melanoma-tme\`](https://github.com/Ganapathirajan/scrna-melanoma-tme)
+scRNA-seq cell-type classification of the melanoma tumor microenvironment (GSE72056). Full preprocessing, unsupervised clustering, cell-type annotation with Scanpy, plus an RF classifier layer.
 
-### 🧪 [`trio-wes-analysis`](https://github.com/Ganapathirajan/trio-wes-analysis)
-Whole-exome sequencing analysis of trio samples (proband + parents). De novo variant detection, variant filtering, ANNOVAR/SnpEff annotation, HPO-based phenotype prioritization.
+### 🧬 [\`bulk-rnaseq-pd\`](https://github.com/Ganapathirajan/bulk-rnaseq-pd)
+Bulk RNA-seq differential expression analysis on Parkinson's Disease prefrontal cortex (GSE68719). FastQC → alignment → DESeq2 DE analysis. R/Bioconductor.
 
-### 📊 [`vcf-annotation-pipeline`](https://github.com/Ganapathirajan/vcf-annotation-pipeline)
-Automated VCF annotation pipeline using ANNOVAR + SnpEff + bcftools. Filters by functional impact, links to ClinVar/gnomAD, outputs ranked candidate variants.
+### 🔍 [\`vcf-annotation-pipeline\`](https://github.com/Ganapathirajan/vcf-annotation-pipeline)
+Automated VCF annotation & variant prioritisation pipeline built with Nextflow DSL2 (bcftools + VEP), run on NA12878 chr21 — covers the WGS/WES variant-calling-to-annotation leg of the workflow.
 
-### 🦠 [`pd-metagenomics`](https://github.com/Ganapathirajan/pd-metagenomics)
-Metagenomic profiling of gut microbiome in Parkinson's Disease. QIIME2 + Kraken2 + HUMAnN. Alpha/beta diversity, PCoA, abundance heatmaps, clinical metadata association analysis.
+### 🦠 [\`pd-metagenomics\`](https://github.com/Ganapathirajan/pd-metagenomics)
+Shotgun metagenomic analysis of gut microbiome dysbiosis in Parkinson's Disease using PRJNA834801 (Wallen et al. 2022). Kraken2 + Bracken + Krona.
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ganapathirajan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ganapathirajan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Ganapathirajan&theme=tokyonight&hide_border=true" />
-
-</div>
+### 🧠 [\`snrna-pd-analysis\`](https://github.com/Ganapathirajan/snrna-pd-analysis)
+snRNA-seq analysis of Parkinson's Disease human midbrain (GSE157783, 39,606 nuclei). Scanpy + Harmony batch correction + Leiden clustering + UMAP + Random Forest PD/control classifier (AUC 0.898).
 
 ---
 
